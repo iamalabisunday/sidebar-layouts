@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./Icons/Tailwind logo.svg" />
+    <title>Sidebar Layouts</title>
+    <!-- Styling Link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- topbar for tablet and mobile screen  -->
+      <div class="topbar">
+        <div class="topbar-left">
+          <i class="fa-solid fa-bars menu-icon"></i>
+          <p>Dashboard</p>
+        </div>
+        <img src="./Picture/Tom.avif" alt="Tom Picture" class="img" />
+      </div>
+      <!-- Sidebar for website screen -->
+      <div class="sidebar">
+        <!-- Main section -->
+        <div>
+          <!-- logo section -->
+          <div class="logo-container">
+            <img src="Tailwind logo.svg" alt="Tailwind logo" class="logo" />
+          </div>
+          <!-- menu section -->
+          <div class="menu-container">
+            <div class="menu">
+              <!-- Dashboard section-->
+              <div class="menu-content active">
+                <i class="fa-regular fa-house menu-icon"></i>
+                <p class="menu-text">Dashboard</p>
+              </div>
+              <!-- Team section-->
+              <div class="menu-content">
+                <i class="fa-regular fa-user menu-icon"></i>
+                <p class="menu-text">Team</p>
+              </div>
+              <!-- Project section-->
+              <div class="menu-content">
+                <i class="fa-regular fa-folder-closed menu-icon"></i>
+                <p class="menu-text">Project</p>
+              </div>
+              <!-- Calendar section-->
+              <div class="menu-content">
+                <i class="fa-regular fa-calendar menu-icon"></i>
+                <p class="menu-text">Calendar</p>
+              </div>
+              <!-- Documents section-->
+              <div class="menu-content">
+                <i class="fa-regular fa-file menu-icon"></i>
+                <p class="menu-text">Documents</p>
+              </div>
+              <!-- Reports section-->
+              <div class="menu-content">
+                <i class="fa-regular fa-chart-bar menu-icon"></i>
+                <p class="menu-text">Reports</p>
+              </div>
+            </div>
+            <div class="menu teams">
+              <p class="menu-title">Your teams</p>
+              <!-- Heroicons section-->
+              <div class="menu-content">
+                <div class="team-icon"><p>H</p></div>
+                <p class="menu-text">Heroicons</p>
+              </div>
+              <!-- Tailwind Labs section-->
+              <div class="menu-content">
+                <div class="team-icon"><p>T</p></div>
+                <p class="menu-text">Tailwind Labs</p>
+              </div>
+              <!-- Workcation section-->
+              <div class="menu-content">
+                <div class="team-icon"><p>W</p></div>
+                <p class="menu-text">Workcation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- profile section -->
+        <div class="profile-container">
+          <img src="Tom.avif" alt="Tom Picture" class="img" />
+          <p>Tom Cook</p>
+        </div>
+      </div>
+      <!-- content section -->
+      <div class="content-container">
+        <div class="content"></div>
+      </div>
+    </div>
+  </body>
+</html>
